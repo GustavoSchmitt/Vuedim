@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "name": "Pudim",
+        "title": "Mini pudim de pote e caramelo de ponto perfeito",
+        "img": [
+            "/src/assets/kitPudim.png",
+            "/src/assets/miniPudim.png"
+        ],
+        "description": [
+            "O mini pudim é uma sobremesa encantadora e delicada, perfeita para porções individuais. Este pequeno deleite é uma versão em miniatura do clássico pudim de leite condensado, caracterizado por sua textura cremosa e sabor irresistível. Servido em formas pequenas, geralmente ramequins, o mini pudim é coberto com uma camada fina de caramelo dourado e brilhante, que adiciona uma doçura equilibrada ao conjunto.",
+            "Ao partir uma porção, a suavidade do pudim se revela, derretendo-se na boca com uma mistura perfeita de baunilha e caramelo. A apresentação individual torna cada pudim visualmente atraente e prático, ideal para festas, jantares especiais ou simplesmente para uma indulgência pessoal.",
+            "O mini pudim, além de ser delicioso, é uma excelente opção para quem deseja controlar as porções sem abrir mão do prazer de saborear uma sobremesa clássica e reconfortante."
+        ],
+        "price": 6,
+        "flavores": [],
+        "fit": false
+    },
+    {
+        "id": 2,
+        "name": "Pão de mel",
+        "title": "",
+        "img": [],
+        "description": [],
+        "price": 8,
+        "flavores": [],
+        "fit": false
+    },
+    {
+        "id": 3,
+        "name": "Tortilha",
+        "title": "",
+        "img": [],
+        "description": [],
+        "price": 5,
+        "flavores": [],
+        "fit": true
+    },
+    {
+        "id": 4,
+        "name": "Trufas",
+        "title": "",
+        "img": [],
+        "description": [],
+        "price": 3,
+        "flavores": [],
+        "fit": false
+    },
+    {
+        "id": 5,
+        "name": "Kit",
+        "title": "",
+        "img": [],
+        "description": [],
+        "price": 0,
+        "flavores": [],
+        "fit": false
+    }
+]
