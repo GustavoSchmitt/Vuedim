@@ -36,6 +36,7 @@ body {
 header {
   line-height: 1.5;
   max-height: 100vh;
+  background-color: var(--c-white);
 }
 
 .logo {
@@ -72,7 +73,7 @@ nav a:first-of-type {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    /* padding-right: calc(var(--section-gap) / 2); */
   }
 
   .logo {

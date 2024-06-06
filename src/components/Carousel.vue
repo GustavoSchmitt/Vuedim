@@ -49,8 +49,7 @@
   <style scoped>
   .carousel {
     position: relative;
-    width: 100%;
-    max-width: 600px;
+    width: 80%;
     margin: auto;
     overflow: hidden;
   }

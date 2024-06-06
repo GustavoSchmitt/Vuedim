@@ -1,14 +1,14 @@
 <template>
+    <main>
+        <h1 class="caramel"> {{ profile.title }}</h1>
+        <Carousel :images="profile.img" />
+        <section>
+            <p v-for="description in profile.description">
+                {{ description }}
 
-    <h1 class="caramel"> {{ profile.title }}</h1>
-    <img v-if="!!profile.img.length" :src="profile.img[0]" alt="">
-    <Carousel :images="profile.img" />
-    <section v-for="description in profile.description">
-        <p>
-            {{ description }}
-        </p>
-
-    </section>
+            </p>
+        </section>
+    </main>
 </template>
 <script>
 import profiles from '../data/json.json'
@@ -26,16 +26,27 @@ export default {
 }
 </script>
 <style scoped>
+main {
+    background-color: var(--c-white);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 img {
     border-radius: 45%;
     width: 150px;
 }
-section{
-    display:flex;
-    justify-content: center;
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
 }
-p{
-    width:80%;
+
+p {
+    width: 80%;
     font-size: 1.25rem;
 }
 </style>

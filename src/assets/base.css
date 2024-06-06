@@ -1,14 +1,17 @@
 /* My project palette */
 :root{
-  --color-body: #fef9e3;
-  --color-caramel:#a15501;
-  --color-cheek:#f7ac75
+  --c-body: var(--c-pudding);
+  --c-text-dark:var(--c-caramel);
+  --c-text-light:var(--c-cheek);
 }
 
 
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
-  --vt-c-white: #ffffff;
+  --c-white-pudding: #fef9e3;
+  --c-caramel:#a15501;
+  --c-cheek:#f7ac75;
+  --c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
 
@@ -46,6 +49,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    
     --color-background: var(--vt-c-black);
     --color-background-soft: var(--vt-c-black-soft);
     --color-background-mute: var(--vt-c-black-mute);
